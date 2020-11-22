@@ -1,0 +1,227 @@
+@font-face {
+    font-family: Lato-Light;
+    src: url('../fonts/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url('../fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url('../fonts/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: Rubik-Light;
+    src: url('../fonts/Rubik-Light.ttf');
+}
+
+body {
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: Lato, sans-serif;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+    font-family: Rubik, sans-serif;
+    letter-spacing: 0.2px;
+    opacity: 1;
+    background: #ffffff99;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #333333;
+    font-weight: normal;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+#mainNav .navbar-nav > li.nav-item > a:hover {
+    color: #000000;
+}
+
+
+.masthead .header-address { 
+    top: 130px;
+    display: inline-block;
+
+}
+
+.masthead .header-address .icon {
+    background-color: #000000;
+    opacity: 45%;
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 6px;
+}
+
+
+.masthead .header-address .address {
+    background-color: #000000;
+    opacity: 45%;
+    color: #FFFFFF;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    font-size: 16px;
+    padding-top: 7px;
+}
+
+
+#masthead {
+    background-image: url('../img/burrito-unsplash.jpg');
+    height: 300px;
+}
+
+#header {
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background: #ffffff;
+    margin-top: 150px;
+}
+
+#header img {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: inline-block;
+}
+
+#header h5 {
+    top: 10px;
+    font-family: Lato-Bold;
+    font-size: 32px;
+    display: inline-block;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+#header .address {
+    text-align: left;
+    font-size: 16px;
+    font-family: Lato-Light;
+    letter-spacing: 0px;
+    color: #999999;
+    opacity: 1;
+    display: block;
+
+}
+
+#header .status {
+    color: #65C6B0;
+    font-family: Lato;
+    border-width: 2px;
+    border-style: solid;
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px;
+    margin: 20px;
+    display: inline-block;
+}
+
+#header .primary {
+    color: #FFFFFF;
+    background-color: #65C6B0;
+}
+
+#header .default {
+    background-color: #F2F2F2;
+    color: #999999;
+}
+
+#header .restaurant-info {
+    font-family: Lato, sans-serif;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    padding: 7px 10px 0 10px;
+    display: inline-block;
+    bottom: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 50px;
+}
+
+#user-profile h2 {
+    font-family: Rubik;
+    color: #222222;
+    font-size: 25px;
+}
+
+#user-profile .icon {
+    color: #33ADFF;
+    font-size: 40px;
+}
+
+#user-profile {
+    font-family: Rubik-Light;
+}
+
+#user-profile .user-name {
+    font-size: 20px;
+    color: #999999;
+}
+
+#user-profile .user-data {
+    font-size: 16px;
+    color: #999999;
+}
+
+#user-profile .editar-btn {
+    text-transform: uppercase;
+    color: #0099FF;
+    font-size: 16px;
+}
+
+#footer-nav {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
+    #mainNav {
+        display: none;
+    }
+    
+    #footer-nav{
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 65px;
+        background-color: #FFFFFF;
+    }
+    #footer-nav .nav-btn i{
+        display: block;
+        color: #999999;
+        font-size: 25px;
+        margin: 20px;
+        justify-content: center;
+    }
+    #footer-nav .nav-btn{
+        text-decoration: none;
+        margin: auto;
+        position: relative;
+        justify-content: center;
+    }
+    
+}

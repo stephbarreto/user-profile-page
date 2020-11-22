@@ -1,0 +1,126 @@
+.features-boxed {
+    color: #313437;
+}
+
+.features-boxed p {
+    color: #7d8285;
+}
+
+.features-boxed h2 {
+    font-weight: bold;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media (max-width:767px) {
+    .features-boxed h2 {
+        display: none;
+    }
+}
+
+.features-boxed .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.features-boxed .intro p {
+    margin-bottom: 0;
+}
+
+.features-boxed .features {
+    padding: 50px 0;
+}
+
+.features-boxed .item {
+    text-align: center;
+
+}
+
+.features-boxed .item .box {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.features-boxed .item .icon {
+    font-size: 60px;
+    color: #1485ee;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.features-boxed .profile-button {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: inline-block;
+    align-content: space-between;
+}
+
+.features-boxed .profile-button i {
+    color: #33ADFF;
+    margin-bottom: 10px;
+}
+
+.features-boxed .profile-button p {
+    font-family: Rubik-Light;
+    color: #999999;
+    font-size: 16px;
+}
+
+.features-boxed .buttons {
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+
+    .features-boxed .profile-button {
+        max-width: 180px;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .features-boxed .profile-button {
+        max-width: 180px;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .justified {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: separate;
+    }
+
+    .group {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .justified > .btn,
+    .justified > .group {
+        display: table-cell;
+        float: none;
+        width: 1%;
+    }
+
+    .justified > .group .btn {
+        width: 100%;
+    }
+
+    .group > .btn {
+        position: relative;
+
+    }
+
+    .features-boxed .buttons {
+        margin-left: 0;
+    }
+}
