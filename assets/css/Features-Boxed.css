@@ -77,6 +77,11 @@
     margin-left: 20px;
 }
 
+.features-boxed .bottom{
+    margin-top: 70px;
+}
+
+
 @media only screen and (max-width: 640px) {
 
     .features-boxed .profile-button {
@@ -97,20 +102,17 @@
         table-layout: fixed;
         border-collapse: separate;
     }
-
     .group {
         display: inline-block;
         vertical-align: middle;
         text-align: center;
     }
-
     .justified > .btn,
     .justified > .group {
         display: table-cell;
         float: none;
         width: 1%;
     }
-
     .justified > .group .btn {
         width: 100%;
     }
@@ -122,5 +124,8 @@
 
     .features-boxed .buttons {
         margin-left: 0;
+    }
+    .features-boxed .bottom {
+        margin-top: 0px;
     }
 }
